@@ -4,7 +4,7 @@
     * System attributes visible to the machine language programmer
 * **Organization:**
     * Operational units and its connection to the architecture
-
+<br><br>
 * **Structure:**
     * How components are connected
 * **Function:**
