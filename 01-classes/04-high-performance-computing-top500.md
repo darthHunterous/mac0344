@@ -101,7 +101,7 @@
         * 7.2 billion transistors
     * IBM - June of 2017
         * Announced the creation of silicon chip of 5 nm
-* **Reflextions about computer evolution**
+* **Reflexions about computer evolution**
     * Improvements are related to the VLSI technology
     * **Parallel Computing**
         * One way of improving processor speed is raising its clock speed, reducing the cycle
