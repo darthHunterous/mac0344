@@ -1,4 +1,3 @@
-
 # Aula 08, 09, 10 - Evolução do Desempenho do Processador
 * **Frequência do Relógio**
     * ENIAC (1946) - 100 kHz
