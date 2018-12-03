@@ -125,7 +125,7 @@
 ### 04 - Microprograma - Execução de Microinstruções
 * **Microprograma:** conjunto de microinstruções
     * Armazenado na memória ROM do processador, **control store**
-    ** Registrador MPC (**Micro Program Counter**) aponta para a próxima microinstrução dentro do control store
+    * Registrador MPC (**Micro Program Counter**) aponta para a próxima microinstrução dentro do control store
     * MIR armzena a microinstrução em execução
 * **Quatro subciclos na execução de microinstrução**
     * Subciclo 1: carrega a próxima microinstrução no MIR
