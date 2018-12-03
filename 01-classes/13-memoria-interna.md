@@ -14,11 +14,11 @@
     * Carregado, o capacitor pode perder caga por vazamento, portanto para mantê-lo sempre carregado, aplica-se um pulso de refrescamento (origem do nome dinâmico)
     * Address Line controlar um transistor para permitir acesso ao capacitor. Para escrever um, usa-se voltagem alta no Bit Line e para zero, voltagem baixa.
     * Leitura se dá com o Bit Line usando a carga do capacitor, que o descarrega, fazendo-se necessária restauração
-    * ![DRAM](dram.png)
+    * ![DRAM](imgs/dram.png)
 * **SRAM - Static RAM:** usada em cache, menos densa, mais rápida e mais custosa
     * Mantém o dado inalterado enquanto energizada
     * Célula de 1 bit composta por 4 transistores 
-        ![SRAM](sram.png)
+        ![SRAM](imgs/sram.png)
         * Address line controla T5 e T6 para escrita ou leitura da memória
         * Para escrita, o valor é aplicado na Bit line para a definição de um dos estados estáveis
         * A leitura se dá através da Bit Line
@@ -27,7 +27,7 @@
     * Ambos estados são estáveis enquanto energizado
 * Representação alternativa de SRAM: duas portas inversoras (NÃO)
 
-    ![ALT-SRAM](alternate-sram.png)
+    ![ALT-SRAM](imgs/alternate-sram.png)
     * Dois estados estáveis
         * Q = 0 e !Q = 1
         * Q = 1 e !Q = 0
@@ -53,13 +53,13 @@
 * **ROM Baseada em NOR**
     * Linha endereçada contém 1 e as demais zero
     * Se tal linha entra no NOR tem saída zero, senão 1
-    ![NOR-ROM](nor-rom.png)
+    ![NOR-ROM](imgs/nor-rom.png)
 * **Projeto de ROM usando NAND**
     * L0: 1011 da forma D0D1D2D3
     * L1: 0110
     * L2: 1010
     * L3: 1111
-    ![NAND-ROM](nand-rom.png)
+    ![NAND-ROM](imgs/nand-rom.png)
 
 ### Tipos de ROM
 * **PROM - Programmable ROM**: só pode ser escrita uma vez, por meio elétrico, após a fabricação da pastilha
@@ -78,7 +78,7 @@
 * Tipos NOR e NAND
 * Assim como EPROM, usa um transistor por bit, sendo bastante densa
     
-    ![FLASH](flash.png)
+    ![FLASH](imgs/flash.png)
 * **Limite no número de ciclos de escrita**
     * NOR Flash: 10 a 100 mil
     * NAND Flash: 100 a 1000 mil ciclos
